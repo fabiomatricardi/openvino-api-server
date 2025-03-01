@@ -27,5 +27,5 @@ huggingface-cli download --resume-download boysbytes/DeepSeek-R1-Distill-Qwen-1.
 
 Download the textual interface - normal chat for now
 ```
-wget https://github.com/fabiomatricardi/OpenVINO_genAI_tests/raw/main/OV_GAI_text_STRERAM.py -OutFile OV_GAI_text_STRERAM.py
+wget https://github.com/fabiomatricardi/openvino-api-server/raw/main/OV_GAI_text_STRERAM.py -OutFile OV_GAI_text_STRERAM.py
 ```
