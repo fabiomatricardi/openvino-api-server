@@ -1,2 +1,31 @@
 # openvino-api-server
 my personal attempt to openai API compatible openvino server
+
+
+
+```
+python -m venv venv
+pip install openvino-genai==2025.0.0
+pip install optimum[openvino,nncf] torchvision evaluate openai fastapi uvicorn tiktoken gradio
+```
+this will install a lot of packages
+
+```
+Installing collected packages: sentencepiece, pytz, pydub, py-cpuinfo, mpmath, jstyleson, grapheme, xxhash, wrapt, websockets, urllib3, tzdata, typing-extensions, tomlkit, threadpoolctl, tabulate, sympy, sniffio, six, shellingham, semantic-version, safetensors, ruff, rpds-py, regex, pyyaml, python-multipart, pyparsing, pygments, pyarrow, psutil, protobuf, propcache, pillow, orjson, numpy, ninja, networkx, natsort, multidict, mdurl, markupsafe, kiwisolver, joblib, jiter, idna, h11, groovy, fsspec, frozenlist, fonttools, filelock, ffmpy, distro, dill, cycler, colorama, charset-normalizer, certifi, attrs, annotated-types, aiohappyeyeballs, aiofiles, about-time, yarl, tqdm, scipy, requests, referencing, python-dateutil, pydot, pydantic-core, onnx, multiprocess, markdown-it-py, jinja2, httpcore, Deprecated, contourpy, cma, click, autograd, anyio, alive-progress, aiosignal, uvicorn, torch, tiktoken, starlette, scikit-learn, rich, pydantic, pandas, matplotlib, jsonschema-specifications, huggingface-hub, httpx, aiohttp, typer, torchvision, tokenizers, safehttpx, pymoo, openai, jsonschema, gradio-client, fastapi, transformers, nncf, gradio, datasets, optimum, evaluate, optimum-intel
+```
+
+Set HF-Mirror for Chinese users
+```
+$env:HF_ENDPOINT = "https://hf-mirror.com"
+```
+
+Login with your HF TOKEN and download the model
+```
+huggingface-cli login
+huggingface-cli download --resume-download boysbytes/DeepSeek-R1-Distill-Qwen-1.5B-openvino-4bit --local-dir DeepSeek-R1-Distill-Qwen-1.5B-openvino-4bit
+```
+
+Download the textual interface - normal chat for now
+```
+wget https://github.com/fabiomatricardi/OpenVINO_genAI_tests/raw/main/OV_GAI_text_STRERAM.py -OutFile OV_GAI_text_STRERAM.py
+```
