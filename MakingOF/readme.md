@@ -12,4 +12,8 @@ Final results
 ---
 
 
+
+
 Here the Screenshots with the process
+
+You can see the [chat history here](https://claude.ai/share/024776f0-a438-42c5-93d9-5719069ceb6a)
