@@ -26,6 +26,11 @@ huggingface-cli download --resume-download boysbytes/DeepSeek-R1-Distill-Qwen-1.
 ```
 ---
 
+Created with Cluade Sonnet 3.7
+
+Read the entire MakingOF and screenshots from [here](https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/readme.md)
+
+Made with 
 
 ## Read The Docs
 
