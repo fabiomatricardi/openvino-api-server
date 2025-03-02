@@ -63,6 +63,14 @@ Error: Model path does not exist: ELONmusk
 ```
 
 
+## Additional Check for chat_template
+I did an additional verification because some models like R1 do not have a proper chat_template
+
+see `modified-app-py_chatTemplateCheck.py`  must be verified yet
+
+attached an example of `tokenizer_config.json` from `SmolLM2-260M-instruct`
+
+
 
 
 
