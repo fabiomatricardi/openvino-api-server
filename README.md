@@ -30,7 +30,7 @@ Created with Cluade Sonnet 3.7
 
 Read the entire MakingOF and screenshots from [here](https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/readme.md)
 
-Made with 
+Made with <img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/000.png' height=20>
 
 ## Read The Docs
 
