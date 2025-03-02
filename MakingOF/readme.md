@@ -1,4 +1,4 @@
-Here How I created it
+## Here How I created it
 
 - total time required 30 minutes
 - used latest Claude Sonnet 3.7
@@ -11,9 +11,29 @@ Final results
 
 ---
 
+Generated with Claude
 
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/000claude.png' width=1000>
 
 
 Here the Screenshots with the process
 
 You can see the [chat history here](https://claude.ai/share/024776f0-a438-42c5-93d9-5719069ceb6a)
+
+---
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/001.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/002.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/003.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/004.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/005.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/006.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/007.png' width=1000>
+
+<img src='https://github.com/fabiomatricardi/openvino-api-server/raw/main/MakingOF/008.png' width=1000>
